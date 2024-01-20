@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Without_Bold;
+    src: url(/fonts/WithoutAltSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Without_Book;
+    src: url(/fonts/WithoutAltSans-Book.ttf);
+}
+
+@font-face {
+    font-family:League ;
+    src: url(/fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: Din;
+    src: url(/fonts/DIN.ttf);
+}
+
+body{
+    background-image: url("/images/headphones_website.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+.logo_background{
+    width: 70px;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: -4%;
+    margin-left: -1%;
+}
+
+.side_text{
+    font-family: League;
+    transform: rotate(-90deg);
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -2%;
+}
+
+.side_text p{
+    margin-right: 22px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Without_Bold;
+    margin-top: -3%;
+    margin-right: 8%;
+}
+
+nav a{
+    margin-right:30px;
+    color: rgb(110, 103, 103);
+    text-decoration: none;
+}
+
+nav a:hover{
+   color: black;
+   transition: 0.2s;
+}
+
+.headphone{
+    color: rgb(70, 56, 56);
+}
+
+ion-icon{
+    margin-left: 102px;
+    font-size: 133%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+
+.line{
+    width: 90px;
+    height: 5px;
+    background-color: black;
+}
+
+.info h1{
+    font-size: 250%;
+    font-family: Without_Bold;
+}
+
+.info h2{
+    font-family: Without_Book;
+}
+
+.stars{
+   display: flex;
+   flex-direction: row;
+   color: gold;
+   position: relative;
+   margin-left: -15%;
+}
+
+.stars ion-icon{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: -75px; 
+}
+
+.stars .star_1{
+    margin-right: -10%;
+}
+
+.circles{
+    display: flex;
+    margin-left: -15%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.circles .black{
+    color: black;
+    border-radius: 50%;
+    border: solid black;
+    margin-top: 2%;
+}
+
+.circles .grey{
+    margin-left: 88%;
+    margin-top: 10%;
+    color: bisque;
+    border-radius: 50%;
+    border: solid bisque;
+    transition: font-size 0.2s;
+}
+
+.circles a:hover{
+    font-size: 22px;
+    transform: scale(1.0); 
+    padding: 0px;
+}
+
+.text_three{
+    margin-top: 5%;
+    font-family: Din;
+}
+
+.info p{
+    font-family: Din;
+    font-size: 70%;
+}
+
+button{
+    width: 30%;
+    margin-top: 2%;
+    padding: 6px;
+    font-family: Din;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+}
+
+button:hover{
+    background-color: burlywood;
+    border: solid 2px burlywood;
+}

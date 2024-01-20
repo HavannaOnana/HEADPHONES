@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones Dark</title>
+    <link rel="stylesheet" href="/static/css/headphone_grey.css">
+</head>
+<body>
+
+    <script src="/headphone.js"></script>
+
+    <script>
+        setTimeout(function(){
+            document.body.style.opacity='0';
+            setTimeout(function(){
+                window.location.href='headphone.html';
+            },1000)
+        },5000);
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <div class="logo">
+        <div class="logo_background"></div>
+        <img src="/images/urbanista_logo-PhotoRoom.png-PhotoRoom.png" alt="" width="100px">
+    </div>
+
+    <div class="side_text">
+        <p>Tw</p>
+        <p>Fb</p>
+        <p>Lg</p>
+    </div>
+
+    <nav>
+        <a href="/pc's/works/pc.html">Pc's</a>
+        <a class="headphone" href="/headphone.html">Headphones</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <ion-icon name="search"></ion-icon>
+    </nav>
+
+    <div class="info">
+       <h1>LOS ANGELES</h1>
+       <div class="line"></div>
+       <h2>$450</h2>
+       <div class="stars">
+         <ion-icon class="star_1" name="star"></ion-icon>
+         <ion-icon name="star"></ion-icon>
+         <ion-icon name="star"></ion-icon>
+         <ion-icon name="star"></ion-icon>
+       </div>
+       <div class="circles">
+        <a href="/headphone.html"><ion-icon class="black" name="ellipse"></ion-icon></a>
+        <a href="/headphone_grey.html"> <ion-icon class="grey" name="ellipse"></ion-icon></a>
+       </div>
+       <h3 class="text_three">Tax included where applicable</h3>
+
+       <p>
+        Introducing the "Los Angeles SonicWave" headphones, a cutting-edge <br>
+        audio experience designed for the modern urban explorer.
+        <br>With sleek, over-ear design and advanced noise-cancellation technology,<br>
+         these headphones deliver crystal-clear sound quality in the bustling city environment.
+        <br>The Los Angeles SonicWave features customizable LED accents,<br>
+         allowing you to personalize your style while enjoying your favorite tunes.
+        <br>Its long-lasting battery ensures you can immerse yourself in music, 
+        <br>podcasts, or calls for hours on end without interruption.
+       </p>
+
+       <button type="submit">Add to Cart</button>
+    
+    </div>
+    
+</body>
+</html>
