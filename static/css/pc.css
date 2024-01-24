@@ -101,4 +101,17 @@ nav ion-icon {
 
 .see_more ion-icon {
   margin-right: 12px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  margin-top: -12%;
+  margin-left: 92%;
+  font-size: 146%;
+  color: rgb(148, 139, 139);
+}
+
+.logos ion-icon {
+  margin-bottom: 42px;
 }/*# sourceMappingURL=pc.css.map */

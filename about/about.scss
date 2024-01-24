@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Without_Bold;
+    src: url(/fonts/WithoutAltSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Without_Book;
+    src: url(/fonts/WithoutAltSans-Book.ttf);
+}
+
+@font-face {
+    font-family:League ;
+    src: url(/fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: Signika;
+    src: url(/fonts/Signika-Bold.ttf);
+}
+
+@font-face {
+    font-family: Signika_light;
+    src: url(/fonts/Signika-Light.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+
+.topper_nav{
+    position: relative;
+    margin-top: -1.5%;
+    z-index: 1;
+}
+
+.topper_nav ion-icon{
+   color: rgb(198, 187, 187);
+   margin-right: 4px;
+}
+
+.intro_text{
+    display: flex;
+    align-items: center;
+    font-family: Signika;
+    margin-left: 16%;
+}
+
+.intro_text h1{
+    font-size: 255%;
+}
+
+.intro_text a{
+    color: black;
+}
+
+.intro_text button{
+    font-size: 103%;
+    font-family: Signika;
+    padding: 12px;
+    border: solid 2px black;
+    border-radius: 11px;
+}
+
+.intro_text img{
+    margin-left: 19%;
+}
+
+.intro_p{
+    font-size: larger;
+}
+
+.bg_lower{
+    width: 100%;
+    height: 1800px;
+    background-color: gainsboro;
+    z-index: -1;
+}
+
+.links{
+    display: flex;
+    margin-top: -119%;
+    font-family: Signika;
+    z-index: 1;
+    justify-content: center;
+}
+
+.links a{
+    border: solid black 2px;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 139px;
+    background-color: gainsboro;
+    color: black;
+}
+
+.project{
+    font-family: Signika;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.projects_one{
+    margin-left: 15%;
+    font-family: Signika;
+    filter: grayscale(70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects_one p{
+    font-family: Signika_light;
+}
+
+.project_a{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects_two {
+    margin-left: 15%;
+    font-family: Signika;
+    filter: grayscale(70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects_two p{
+    font-family: Signika_light;
+}
+
+p{
+    font-family: Signika_light;
+}
+
+.projects_three{
+    margin-left: 15%;
+    font-family: Signika;
+    filter: grayscale(70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects_four{
+    margin-left: 15%;
+    font-family: Signika;
+    filter: grayscale(70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects_five{
+    margin-left: 15%;
+    font-family: Signika;
+    filter: grayscale(70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
